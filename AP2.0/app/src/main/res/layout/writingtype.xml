@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_layout"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  >
+
+    <Button
+        android:id="@+id/turn_to_button"
+        android:layout_width="75dp"
+        android:layout_height="137dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"
+        android:text="Num"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/delete_Button"
+        android:layout_marginTop="5dp"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:layout_below="@id/turn_to_button"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/black"
+        android:text="DEL"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/oneLine"
+        android:layout_toRightOf="@+id/turn_to_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/No1_button"
+            android:layout_width="80dp"
+            android:textAllCaps="false"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:background="@drawable/numbutton_shape"
+            android:layout_toRightOf="@+id/turn_to_button"
+            android:text="1\nabc"/>
+
+        <Button
+            android:id="@+id/No2_button"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:textAllCaps="false"
+            android:layout_height="80dp"
+            android:background="@drawable/numbutton_shape"
+            android:textColor="@color/black"
+            android:text="2\ndef"/>
+
+        <Button
+            android:id="@+id/No3_button"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:textAllCaps="false"
+            android:layout_height="80dp"
+            android:background="@drawable/numbutton_shape"
+            android:textColor="@color/black"
+            android:text="3\nghi"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:id="@+id/twoLine"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/turn_to_button"
+        android:layout_below="@+id/oneLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/No4_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@drawable/numbutton_shape"
+            android:layout_toRightOf="@+id/turn_to_button"
+            android:text="4\njkl"/>
+
+        <Button
+            android:id="@+id/No5_button"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/numbutton_shape"
+            android:text="5\nmno"/>
+
+        <Button
+            android:id="@+id/No6_button"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/numbutton_shape"
+            android:text="6\npqrs"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/threeLine"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/turn_to_button"
+        android:layout_below="@+id/twoLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/No7_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@drawable/numbutton_shape"
+            android:layout_toRightOf="@+id/turn_to_button"
+            android:text="7\ntuv"/>
+
+        <Button
+            android:id="@+id/No8_button"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_width="80dp"
+            android:textAllCaps="false"
+            android:background="@drawable/numbutton_shape"
+            android:layout_height="80dp"
+            android:text="8\nwxyz"/>
+
+        <Button
+            android:id="@+id/No9_button"
+            android:layout_width="80dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/numbutton_shape"
+            android:layout_height="80dp"
+            android:textAllCaps="false"
+            android:text="9\n. * #"  />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

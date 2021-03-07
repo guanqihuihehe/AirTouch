@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/titleGreen2"
+    android:paddingTop="25dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="85dp">
+
+    <Button
+        android:id="@+id/goto_mainlayout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/home"/>
+
+    <TextView
+        android:id="@+id/title_content"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="拨号键盘"
+        android:textColor="@color/white"
+        android:textSize="20sp"  />
+    <Button
+        android:id="@+id/goto_addlayout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/little_add"/>
+
+
+
+
+</LinearLayout>

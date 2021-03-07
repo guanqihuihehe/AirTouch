@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Android.mk",
+    "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\XiaoZH\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/ALL_WORK/AcouDigits/code/AudioPlatform/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "jni-release-arm64-v8a": {
+      "buildCommand": "C:\\Users\\XiaoZH\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/ALL_WORK/AcouDigits/code/AudioPlatform/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/ALL_WORK/AcouDigits/code/AudioPlatform/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjni.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "jni",
+      "files": [
+        {
+          "src": "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\MatrixProcess.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/XiaoZH/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/ALL_WORK/AcouDigits/code/AudioPlatform/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\RangeFinder.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/XiaoZH/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/ALL_WORK/AcouDigits/code/AudioPlatform/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\src\\main\\jni\\audioplatform.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/XiaoZH/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/ALL_WORK/AcouDigits/code/AudioPlatform/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\ALL_WORK\\AcouDigits\\code\\AudioPlatform\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libjni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "C:\\Users\\XiaoZH\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

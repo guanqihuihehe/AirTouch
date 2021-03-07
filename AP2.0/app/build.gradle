@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.chaquo.python' //添加行
+
+android {
+    //changed 9.19
+    compileSdkVersion 28
+    buildToolsVersion '28.0.2'
+
+    defaultConfig {
+        applicationId "com.fruitbasket.audioplatform"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 22
+        versionName "4.0.0"
+        ndk {
+            // 指定abi，如需在模拟器调试，增加",x86"，否则指定"armeabi-v7a"即可
+            abiFilters "armeabi-v7a","x86"
+        }
+        python {
+            // 指定python路径
+            buildPython "D:\\Python\\Python37\\python.exe"
+
+            pip{
+                install "opencv-python"
+                install "numpy"
+                install "wave"
+                install "scipy"
+                install "matplotlib"
+                install "pydub"
+            }
+
+        }
+        /*ndk {
+            moduleName "PhaseProcess"
+        }*/
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path file("src\\main\\jni\\Android.mk")
+        }
+    }
+
+    //set no compress models
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //changed 9.19
+//    implementation 'com.google.android.support:wearable:2.0.0-beta1'
+//    implementation 'com.google.android.gms:play-services-wearable:10.0.1'
+//    compileOnly 'com.google.android.wearable:wearable:2.0.0-beta1'
+    implementation "com.android.support:support-annotations:28.0.0"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'uk.me.berndporr:iirj:1.1'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+}

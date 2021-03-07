@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fruitbasket.audioplatform"
+    android:versionCode="8"
+    android:versionName="@string/app_version_name">
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:name="com.fruitbasket.audioplatform.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <uses-library android:name="com.google.android.wearable" android:required="false" />
+
+        <service
+            android:name="com.demo.bar.BarService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name="com.demo.bar.BarActivity"></activity>
+        <activity android:name="com.demo.dialing.TelephoneBookActivity"></activity>
+        <activity
+            android:name="com.fruitbasket.audioplatform.ui.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name="com.demo.dialing.AddContactActivity"
+           android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="com.demo.WriteTypeActivity"
+            android:theme="@style/keyboardStyleBottom"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity android:name="com.demo.mymusic.BroadcastActivity"></activity>
+        <activity android:name="com.demo.mymusic.SongSheetActivity"></activity>
+        <activity android:name="com.demo.jump.AppMainActivity">
+            <intent-filter>
+                <action android:name="com.demo.jump.Jump_Restart" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.demo.jump.Jump_Activity"></activity>
+        <activity android:name="com.demo.dialing.DialingMainActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+
+        </activity>
+        <service android:name="com.fruitbasket.audioplatform.AudioService" />
+
+    </application>
+
+</manifest>

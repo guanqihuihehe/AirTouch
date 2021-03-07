@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk",
+    "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\as\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "jni-debug-armeabi-v7a": {
+      "buildCommand": "D:\\as\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libjni.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jni",
+      "files": [
+        {
+          "src": "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\MatrixProcess.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/as/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidStudioProjects/4.0/AP2.0/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\RangeFinder.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/as/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidStudioProjects/4.0/AP2.0/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\audioplatform.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/as/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidStudioProjects/4.0/AP2.0/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libjni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "D:\\as\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

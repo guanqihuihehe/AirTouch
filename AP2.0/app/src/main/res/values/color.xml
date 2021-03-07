@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titleGreen">#66CDAA</color>
+    <color name="titleGreen2">#3CB371</color>
+    <color name="grey">#BEBEBE</color>
+    <color name="lightblue">#CDCDB4</color>
+    <color name="change">#BEBEBE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlue">#706fd3</color>
+    <color name="colorPurple">#34ace0</color>
+    <color name="shineBlue">#badffa</color>
+    <color name="white1">#A5EAF8</color>
+    <color name="blue1">#D5B4F5</color>
+    <color name="blue2">#706fd3</color>
+    <color name="white2">#34ace0</color>
+    <color name="bg1">#fffefe</color>
+    <color name="press">#999999</color>
+    <color name="grey_button">#BBBBBB</color>
+    <color name="first_left">#7a6eeb</color>
+    <color name="first_right">#6eb7ed</color>
+    <color name="sec_left">#6eeccd</color>
+    <color name="sec_right">#6eb7ed</color>
+    <color name="thrid_left">#ef9edd</color>
+    <color name="thrid_right">#6eb7ed</color>
+    <color name="dia_left">#3CB371</color>
+    <color name="dia_right">#04A2A7</color>
+</resources>

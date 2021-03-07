@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AirTouch"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-基于超声波的手势识别轻交互系统"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="140dp"/>
+
+    <SeekBar
+        android:id="@+id/waverate_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape1"
+        android:layout_below="@id/title"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:id="@+id/start_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:layout_centerVertical="true"/>
+        <!--        <ToggleButton-->
+        <!--            android:id="@+id/start_button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textOff="关"-->
+        <!--            android:textOn="开"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_marginRight="30dp" />-->
+        <ToggleButton
+            android:id="@+id/start_button"
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/corner5"
+            android:textOff="OFF"
+            android:textOn="ON" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_layout"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingBottom="60dp">
+        <TextView
+            android:id="@+id/serve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="#333333" />
+
+        <LinearLayout
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/serve"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/music_app"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="音乐"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                />
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/right_jump"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phonebook"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/music"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/app_gradient1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/dia"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="电话"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                />
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/right_jump"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/jump_app"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/phonebook"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/app_gradient1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/change_app"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="APP切换"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                />
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/right_jump"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/phonebook"-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/phonetext" />-->
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/music"-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_toRightOf="@+id/phonebook"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:src="@drawable/music" />-->
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/jump_app"-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_toRightOf="@+id/music"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:src="@drawable/jump_app" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/phonebook_text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="通讯录"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_below="@id/phonebook"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginLeft="18dp"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/music_text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="音乐"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_below="@id/music"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_toRightOf="@+id/phonebook_text"-->
+<!--            android:layout_marginLeft="35dp"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/jump_app_text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="App切换"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_below="@id/jump_app"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_toRightOf="@+id/music_text"-->
+<!--            android:layout_marginLeft="31dp"/>-->
+    </RelativeLayout>
+</RelativeLayout>

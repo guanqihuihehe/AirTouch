@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/record_progress"
+            android:outlineAmbientShadowColor="@color/titleGreen"
+            android:max="100"
+            android:progressDrawable="@drawable/bar_color"
+            android:layout_height="10dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

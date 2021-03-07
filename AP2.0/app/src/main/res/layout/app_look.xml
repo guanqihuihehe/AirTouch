@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--该布局为修改界面用于显示所有app的RecycleView的布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/look_imageicon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/app_name3"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:textSize="14sp" />
+</LinearLayout>

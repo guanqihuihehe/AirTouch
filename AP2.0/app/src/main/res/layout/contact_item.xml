@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/mip_people"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/littleperson" />
+    <LinearLayout
+        android:id="@+id/information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:layout_marginLeft="65dp">
+            <TextView
+                android:id="@+id/Text_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="联系人"
+                android:textColor="#BEBEBE"
+                android:textSize="19sp"/>
+            <TextView
+                android:id="@+id/Text_PhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="#BEBEBE"
+                android:layout_marginTop="6sp"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id='@+id/mip_call'
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+
+            android:src="@mipmap/call" />
+
+</RelativeLayout>

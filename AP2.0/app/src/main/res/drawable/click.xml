@@ -1,0 +1,30 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bg1"/>
+
+            <!-- android:radius 圆角的半径 -->
+            <corners
+                android:radius="2dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/bg1"/>
+
+            <!-- android:radius 圆角的半径 -->
+            <corners
+                android:radius="2dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                />
+        </shape>
+    </item>
+</selector>

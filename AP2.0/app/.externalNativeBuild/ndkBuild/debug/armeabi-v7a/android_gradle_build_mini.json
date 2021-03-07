@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk",
+    "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\as\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "jni-debug-armeabi-v7a": {
+      "artifactName": "jni",
+      "buildCommand": "D:\\as\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/AndroidStudioProjects/4.0/AP2.0/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libjni.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroidStudioProjects\\4.0\\AP2.0\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libjni.so"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent",
+      "sdkFolder": "F:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app",
+      "makeFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\.cxx",
+      "cxxFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx",
+      "ndkFolder": "F:\\sdk\\ndk\\21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64",
+  "jsonFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\cxx\\debug\\x86_64",
+  "objFolder": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64",
+  "buildCommandFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_command.txt",
+  "buildOutputFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_output.txt",
+  "modelOutputFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "G:\\all_android_projects\\AudioPlatform_IntegrateWithTencent\\app\\.cxx\\ndkBuild\\debug\\x86_64\\compile_commands.json"
+}

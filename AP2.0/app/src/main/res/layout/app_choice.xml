@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--该布局用于修改界面十个宝座处RecycleView的布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="70dp"
+    android:layout_height="77dp">
+    <TextView
+        android:id="@+id/snum"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/app_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
